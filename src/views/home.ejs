@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Username</title>
+    <meta name="description" content="A random username generator website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="title-section">
+      <h1 class="title">Random Username Generator</h1>
+    </div>
+    <div class="data-section">
+      <div class="data-container">
+        <p class="data">
+          <%- username %>
+        </p>
+      </div>
+    </div>
+    <form action="/generate" method="post">
+      <button class="glow-button" type="submit">Generate</button>
+    </form>
+    <footer>
+      <p>Made with ❤️ by &nbsp <a href="https://akiif.dev" target="_blank">@akiif</a> </p>
+    </footer>
+    <script src="" async defer></script>
+  </body>
+</html>

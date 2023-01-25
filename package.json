@@ -1,0 +1,16 @@
+{
+  "name": "Random-Name-Generator",
+  "version": "1.0.0",
+  "description": "A random name generator website",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "Akif Mohammed",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
