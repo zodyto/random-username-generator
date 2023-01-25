@@ -29,7 +29,7 @@ To run this project:
 -   Then, Install it locally using yarn:
 
 ```
-$ cd backend
+$ cd random-username-generator
 $ yarn
 $ yarn start   # or 'yarn dev' if you have nodemon.
 ```
